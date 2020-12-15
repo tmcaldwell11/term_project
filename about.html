@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Portfolio - Teresa Caldwell</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!--<link rel="stylesheet" media="print" href="css/print.css">-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer src="./scripts/vue.js"></script>
+  <script defer src="./scripts/main.js"></script>
+</head>
+
+<body>
+  <div id="app">
+
+    <header>
+      <top-menu></top-menu>
+    </header>
+
+    <section class="about-section">
+      <h2><span>&#9632; </span> About me</h2>
+      <div class="table1">
+        <table class="about">
+          <p>
+            Thanks for taking the time to look around! I’m currently working as a Junior Software Developer
+            for healthcare marketing firm in the <a href="https://www.boston.gov/" target="_blank">Boston</a> area. Also, I am finishing my Master’s degree in Software Development
+            from Boston University. I have previously attended a coding bootcamp in 2017 where I learned Full-stack Development using
+            web technologies such as HTML/CSS, Javascript, and Python. Following bootcamp
+            I then worked as Web Developer in the Finance sector in Charlotte, NC. </p>
+
+          <p>Overall, I have about 3 years of technical experience
+            working in various roles in technology and engineering in Support engineering,
+            Web Development, and my current role as Junior Software Developer. Currently I focus on frontend technologies
+            like HTML, CSS, Javascript and PHP. I also take care of our backend database using SQL server as well as any updates
+            to our iOS applications. </p>
+
+          <div class="contianer">
+            <img id="pic1" :src="image1" />
+            <img id="pic2" :src="image2" />
+            <img id="pic3" :src="image3" />
+            <img id="pic4" :src="image4" />
+            <img id="pic5" :src="image5" />
+            <img id="pic6" :src="image6" />
+          </div>
+          <figcaption>Photos of me throughout the years.</figcaption>
+
+        </table>
+      </div>
+    </section>
+  </div>
+  <footer class="footer">
+    <p> Made by Teresa Caldwell. &copy; 2020 </p>
+  </footer>
+</body>
+
+</html>

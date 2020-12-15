@@ -1,0 +1,11 @@
+/* override styles when printing */
+@media print {
+
+  h1, h2, h3, Body {
+	font-family: georgia, times, serif; /* 1. serif fonts for printing */
+	background: none; /* 2. no background colors for printing */
+	color: black; /* 3. no fancy font colors - only black and white for printing */
+}
+
+
+}
